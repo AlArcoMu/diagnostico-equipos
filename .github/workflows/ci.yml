@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Tests
+        run: python -m unittest -v
+      - name: Diagnóstico del runner
+        shell: pwsh
+        run: |
+          python main.py --cli --salida informe --json
+          if ($LASTEXITCODE -gt 2) { exit 1 }
+          python -c "import glob, json; d = json.load(open(glob.glob('informe/*.json')[0], encoding='utf-8')); assert d['system'].get('os'), 'Sin datos del sistema'; print(d['system']['os'], '-', len(d['disks']), 'discos,', len(d['network']), 'adaptadores')"
+          exit 0
+      - uses: actions/upload-artifact@v4
+        with:
+          name: informe-runner
+          path: informe/

@@ -1,0 +1,372 @@
+{
+  "system": {
+    "computer": "PC-OFICINA-07",
+    "user": "EMPRESA\\lmartin",
+    "domain": "empresa.local",
+    "partOfDomain": true,
+    "manufacturer": "Dell Inc.",
+    "model": "OptiPlex 7090",
+    "serial": "7HK2Q93",
+    "os": "Microsoft Windows 11 Pro",
+    "osVersion": "10.0.22631",
+    "osBuild": "22631",
+    "arch": "64 bits",
+    "installDate": "2024-02-12T09:31:00",
+    "lastBoot": "2026-10-17T07:15:00",
+    "cpu": "Intel(R) Core(TM) i5-10500 CPU @ 3.10GHz",
+    "cores": 6,
+    "threads": 12,
+    "cpuLoad": 34,
+    "ramTotalKB": 16645120,
+    "ramFreeKB": 3163000
+  },
+  "disks": [
+    {
+      "drive": "C:",
+      "label": "Windows",
+      "fs": "NTFS",
+      "size": 254721126400,
+      "free": 17986326528
+    },
+    {
+      "drive": "D:",
+      "label": "Datos",
+      "fs": "NTFS",
+      "size": 1000186310656,
+      "free": 612892950528
+    }
+  ],
+  "physicalDisks": [
+    {
+      "name": "SAMSUNG MZVLB256HBHQ",
+      "media": "SSD",
+      "health": "Healthy",
+      "size": 256060514304
+    },
+    {
+      "name": "ST1000DM010-2EP102",
+      "media": "HDD",
+      "health": "Warning",
+      "size": 1000204886016
+    }
+  ],
+  "network": [
+    {
+      "name": "Ethernet",
+      "description": "Intel(R) Ethernet Connection (11) I219-LM",
+      "mac": "6C:2B:59:A4:17:E0",
+      "dhcp": true,
+      "ipv4": [
+        "192.168.10.57"
+      ],
+      "gateway": [
+        "192.168.10.1"
+      ],
+      "dns": [
+        "192.168.10.5",
+        "8.8.8.8"
+      ],
+      "speed": 1000000000
+    }
+  ],
+  "events": [
+    {
+      "time": "2026-10-29T04:02:26",
+      "log": "Application",
+      "source": "Application Error",
+      "id": 1000,
+      "level": 2,
+      "message": "Nombre de la aplicación con errores: OUTLOOK.EXE, versión: 16.0.17928.20156"
+    },
+    {
+      "time": "2026-10-29T02:32:09",
+      "log": "Application",
+      "source": "Microsoft-Windows-PrintService",
+      "id": 372,
+      "level": 2,
+      "message": "No se pudo imprimir el documento Albarán 2291 en la impresora HP LaserJet M404 - Planta 2."
+    },
+    {
+      "time": "2026-10-29T00:38:43",
+      "log": "System",
+      "source": "Service Control Manager",
+      "id": 7031,
+      "level": 2,
+      "message": "El servicio Windows Search terminó de manera inesperada."
+    },
+    {
+      "time": "2026-10-28T22:40:54",
+      "log": "Application",
+      "source": "Application Error",
+      "id": 1000,
+      "level": 2,
+      "message": "Nombre de la aplicación con errores: OUTLOOK.EXE, versión: 16.0.17928.20156"
+    },
+    {
+      "time": "2026-10-28T22:15:16",
+      "log": "System",
+      "source": "disk",
+      "id": 153,
+      "level": 2,
+      "message": "Se reintentó la operación de E/S en la dirección de bloque lógico 0x3a2f10 del disco 0."
+    },
+    {
+      "time": "2026-10-28T19:13:40",
+      "log": "Application",
+      "source": "Application Error",
+      "id": 1000,
+      "level": 2,
+      "message": "Nombre de la aplicación con errores: OUTLOOK.EXE, versión: 16.0.17928.20156"
+    },
+    {
+      "time": "2026-10-28T14:44:36",
+      "log": "Application",
+      "source": "Microsoft-Windows-PrintService",
+      "id": 372,
+      "level": 2,
+      "message": "No se pudo imprimir el documento Albarán 2291 en la impresora HP LaserJet M404 - Planta 2."
+    },
+    {
+      "time": "2026-10-28T13:44:54",
+      "log": "Application",
+      "source": "Application Error",
+      "id": 1000,
+      "level": 2,
+      "message": "Nombre de la aplicación con errores: OUTLOOK.EXE, versión: 16.0.17928.20156"
+    },
+    {
+      "time": "2026-10-28T10:21:40",
+      "log": "Application",
+      "source": "Microsoft-Windows-PrintService",
+      "id": 372,
+      "level": 2,
+      "message": "No se pudo imprimir el documento Albarán 2291 en la impresora HP LaserJet M404 - Planta 2."
+    },
+    {
+      "time": "2026-10-28T09:16:09",
+      "log": "System",
+      "source": "disk",
+      "id": 153,
+      "level": 2,
+      "message": "Se reintentó la operación de E/S en la dirección de bloque lógico 0x3a2f10 del disco 0."
+    },
+    {
+      "time": "2026-10-27T21:16:53",
+      "log": "Application",
+      "source": "Application Error",
+      "id": 1000,
+      "level": 2,
+      "message": "Nombre de la aplicación con errores: OUTLOOK.EXE, versión: 16.0.17928.20156"
+    },
+    {
+      "time": "2026-10-27T10:17:26",
+      "log": "Application",
+      "source": "Microsoft-Windows-PrintService",
+      "id": 372,
+      "level": 2,
+      "message": "No se pudo imprimir el documento Albarán 2291 en la impresora HP LaserJet M404 - Planta 2."
+    },
+    {
+      "time": "2026-10-27T04:37:23",
+      "log": "System",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "id": 41,
+      "level": 1,
+      "message": "El sistema se ha reiniciado sin apagarse correctamente antes."
+    },
+    {
+      "time": "2026-10-26T21:41:30",
+      "log": "System",
+      "source": "Service Control Manager",
+      "id": 7031,
+      "level": 2,
+      "message": "El servicio Windows Search terminó de manera inesperada."
+    },
+    {
+      "time": "2026-10-26T16:33:34",
+      "log": "Application",
+      "source": "Application Error",
+      "id": 1000,
+      "level": 2,
+      "message": "Nombre de la aplicación con errores: OUTLOOK.EXE, versión: 16.0.17928.20156"
+    },
+    {
+      "time": "2026-10-26T11:56:58",
+      "log": "Application",
+      "source": "Application Error",
+      "id": 1000,
+      "level": 2,
+      "message": "Nombre de la aplicación con errores: OUTLOOK.EXE, versión: 16.0.17928.20156"
+    },
+    {
+      "time": "2026-10-26T10:26:17",
+      "log": "Application",
+      "source": "Application Error",
+      "id": 1000,
+      "level": 2,
+      "message": "Nombre de la aplicación con errores: OUTLOOK.EXE, versión: 16.0.17928.20156"
+    },
+    {
+      "time": "2026-10-25T22:13:07",
+      "log": "System",
+      "source": "Service Control Manager",
+      "id": 7031,
+      "level": 2,
+      "message": "El servicio Windows Search terminó de manera inesperada."
+    },
+    {
+      "time": "2026-10-25T17:30:28",
+      "log": "System",
+      "source": "disk",
+      "id": 153,
+      "level": 2,
+      "message": "Se reintentó la operación de E/S en la dirección de bloque lógico 0x3a2f10 del disco 0."
+    },
+    {
+      "time": "2026-10-25T10:40:54",
+      "log": "Application",
+      "source": "Application Error",
+      "id": 1000,
+      "level": 2,
+      "message": "Nombre de la aplicación con errores: OUTLOOK.EXE, versión: 16.0.17928.20156"
+    },
+    {
+      "time": "2026-10-25T02:20:49",
+      "log": "Application",
+      "source": "Application Error",
+      "id": 1000,
+      "level": 2,
+      "message": "Nombre de la aplicación con errores: OUTLOOK.EXE, versión: 16.0.17928.20156"
+    },
+    {
+      "time": "2026-10-24T22:27:18",
+      "log": "System",
+      "source": "disk",
+      "id": 153,
+      "level": 2,
+      "message": "Se reintentó la operación de E/S en la dirección de bloque lógico 0x3a2f10 del disco 0."
+    },
+    {
+      "time": "2026-10-23T17:19:23",
+      "log": "Application",
+      "source": "Application Error",
+      "id": 1000,
+      "level": 2,
+      "message": "Nombre de la aplicación con errores: OUTLOOK.EXE, versión: 16.0.17928.20156"
+    },
+    {
+      "time": "2026-10-23T12:05:15",
+      "log": "Application",
+      "source": "Microsoft-Windows-PrintService",
+      "id": 372,
+      "level": 2,
+      "message": "No se pudo imprimir el documento Albarán 2291 en la impresora HP LaserJet M404 - Planta 2."
+    },
+    {
+      "time": "2026-10-22T21:18:33",
+      "log": "Application",
+      "source": "Application Error",
+      "id": 1000,
+      "level": 2,
+      "message": "Nombre de la aplicación con errores: OUTLOOK.EXE, versión: 16.0.17928.20156"
+    },
+    {
+      "time": "2026-10-22T16:34:55",
+      "log": "Application",
+      "source": "Microsoft-Windows-PrintService",
+      "id": 372,
+      "level": 2,
+      "message": "No se pudo imprimir el documento Albarán 2291 en la impresora HP LaserJet M404 - Planta 2."
+    }
+  ],
+  "printers": [
+    {
+      "name": "HP LaserJet M404 - Planta 2",
+      "driver": "HP Universal Printing PCL 6",
+      "port": "IP_192.168.10.40",
+      "default": true,
+      "offline": false,
+      "network": true,
+      "status": 3,
+      "error": 0,
+      "jobs": 3
+    },
+    {
+      "name": "Zebra ZD420 Etiquetas",
+      "driver": "ZDesigner ZD420-203dpi ZPL",
+      "port": "USB001",
+      "default": false,
+      "offline": true,
+      "network": false,
+      "status": 7,
+      "error": 9,
+      "jobs": 0
+    },
+    {
+      "name": "Microsoft Print to PDF",
+      "driver": "Microsoft Print To PDF",
+      "port": "PORTPROMPT:",
+      "default": false,
+      "offline": false,
+      "network": false,
+      "status": 3,
+      "error": 0,
+      "jobs": 0
+    }
+  ],
+  "services": [
+    {
+      "name": "WSearch",
+      "display": "Windows Search",
+      "state": "Stopped"
+    },
+    {
+      "name": "gupdate",
+      "display": "Google Update Service (gupdate)",
+      "state": "Stopped"
+    },
+    {
+      "name": "sppsvc",
+      "display": "Protección de software",
+      "state": "Stopped"
+    }
+  ],
+  "antivirus": [
+    {
+      "name": "Microsoft Defender Antivirus",
+      "state": 397568
+    }
+  ],
+  "lastUpdate": {
+    "id": "KB5044285",
+    "date": "2026-09-28T10:15:00"
+  },
+  "pendingReboot": true,
+  "battery": null,
+  "connectivity": {
+    "gateway": {
+      "host": "192.168.10.1",
+      "ok": true,
+      "ms": 1
+    },
+    "internet": {
+      "host": "1.1.1.1",
+      "ok": true,
+      "ms": 14
+    },
+    "dns": {
+      "host": "www.microsoft.com",
+      "ok": true,
+      "ip": "23.55.124.137",
+      "ms": 22
+    },
+    "http": {
+      "url": "http://www.msftconnecttest.com/connecttest.txt",
+      "ok": true,
+      "ms": 61
+    },
+    "wifi": null
+  },
+  "collectedAt": "2026-10-29T10:15:00",
+  "eventDays": 7
+}
