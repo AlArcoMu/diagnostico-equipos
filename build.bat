@@ -1,8 +1,9 @@
 @echo off
 cd /d "%~dp0"
-py -m pip install --upgrade -r requirements-dev.txt || exit /b 1
-py -m unittest || exit /b 1
-py -m PyInstaller --noconfirm --clean --onefile --windowed ^
+if not defined PYTHON set PYTHON=py
+%PYTHON% -m pip install --upgrade -r requirements-dev.txt || exit /b 1
+%PYTHON% -m unittest || exit /b 1
+%PYTHON% -m PyInstaller --noconfirm --clean --onefile --windowed ^
   --name DiagnosticoEquipos ^
   --icon assets\icon.ico ^
   --add-data "diagnostico\collect.ps1;diagnostico" ^

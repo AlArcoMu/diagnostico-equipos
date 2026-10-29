@@ -17,6 +17,8 @@ jobs:
           python-version: "3.12"
       - name: Compilar
         shell: cmd
+        env:
+          PYTHON: python
         run: build.bat
       - uses: softprops/action-gh-release@v2
         with:
